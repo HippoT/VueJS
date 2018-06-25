@@ -1,0 +1,34 @@
+.mouse-move-zone{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    border: 2px solid #333;
+}
+
+.image{
+    width: 200px;
+    height: 500px;
+    margin:  0 auto;
+    background: url(https://github.com/iamshaunjp/vuejs-playlist/blob/lesson-13/img/bag.png?raw=true) center no-repeat;
+    background-size: 80%;
+}
+
+.image.burst{
+    background: url(https://github.com/iamshaunjp/vuejs-playlist/blob/lesson-13/img/bag-burst.png?raw=true) center no-repeat;
+}
+
+.bag-health{
+    width: 200px;
+    border: 2px solid #000;
+    margin: 0 auto 20px auto;
+}
+
+.bag-health div{
+    height: 20px;
+    background: crimson;
+}
+
+.control{
+    width: 120px;
+    margin: 0 auto;
+}

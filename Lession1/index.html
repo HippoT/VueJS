@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>VueJS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="mainstyle.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+</head>
+<body>
+    <div id="vue-app">
+        <!-- <h1>{{greet('afternoon')}}</h1>
+        <p>Name: {{name}}</p>
+        <p>Job: {{job}}</p>
+
+        <a v-bind:href="website">Vue JS website</a>
+        <input type="text" v-bind:value="name">
+        <div v-html="websiteTag"></div>
+
+        <h1>Event</h1>
+        <button @click="add(1)">Add a year</button>
+        <button v-on:click="sub(1)">Add a year</button>
+
+        <button @dblclick="add(10)">Add a year</button>
+        <button v-on:dblclick="sub(10)">Add a year</button>
+        
+        <p>My age is {{age}}</p>
+        <div class="mouse-move-zone" v-on:mousemove="mouseMove">{{x}};{{y}}</div> -->
+
+        <div :class="{image: true, burst: ended}"></div>
+
+        <div class="bag-health">
+            <div :style="{width: + health + '%'}">
+
+            </div>
+        </div>
+
+        <div class="control">
+            <button v-on:click="punchClick()">Punch</button>
+            <button @click="restartClick()">Restart</button>           
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
